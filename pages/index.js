@@ -1,9 +1,11 @@
-import Link from "next/link";
+import toast from "react-hot-toast";
 
 export default function Home() {
   return (
     <main>
-      <h1>Totally not a Dev.to clone</h1>
+      <div>
+        <button onClick={() => toast.success("hello toast!")}>Toast Me</button>
+      </div>
     </main>
   );
 }
