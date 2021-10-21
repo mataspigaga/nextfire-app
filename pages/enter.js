@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function EnterPage({}) {
   return (
     <main>
-      <h1>Totally not a Dev.to clone</h1>
+      <h1>Sign Up</h1>
       <ul>
-        <Link href="/enter">Sign Up Page</Link>
+        <Link href="/">Home Page</Link>
         <br />
         <Link href="/admin">Admin Page</Link>
         <br />
